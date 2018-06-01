@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.tanvi.atharva2k18">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/a123"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/bgath"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:icon">
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".contact" />
+        <activity android:name=".Accomodation" />
+        <activity android:name=".Registration" />
+        <activity android:name=".Sponsors" />
+        <activity android:name=".Events" />
+        <activity android:name=".AdminLogin" />
+        <activity android:name=".EventParticipants" />
+        <activity android:name=".Theme" />
+        <activity android:name=".AdminEventName" />
+        <activity android:name=".Schedule" />
+        <activity android:name=".ContactUs"></activity>
+    </application>
+
+</manifest>
